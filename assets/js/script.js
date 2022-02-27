@@ -1,3 +1,10 @@
+function getRandomLower() {
+    return StorageManager.fromCharCode(97);
+}
+
+console.log(Math.random()*26)
+
+
 // Get references to the #generate element
 var generateBtn = document.querySelector("#generate");
 
